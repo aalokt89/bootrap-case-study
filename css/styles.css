@@ -1,0 +1,57 @@
+body {
+	font-family: 'Merriweather', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Inter', -apple-system, Roboto, 'Helvetica Neue', sans-serif;
+	font-weight: 800;
+}
+
+p {
+	line-height: 1.8rem;
+}
+.projectDetail {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 420px;
+	background: #eee;
+	width: 420px;
+	padding: 48px;
+}
+
+.mainContent {
+	margin-left: 420px;
+}
+
+.projectBanner {
+	width: 100%;
+	height: 50vh;
+	background: #333;
+}
+
+.projectContent {
+	padding: 64px;
+}
+
+.projectIntro {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 64px;
+	margin-bottom: 64px;
+}
+
+.textBlock {
+	margin: 32px 0;
+}
+
+.imgBlock .projectContent_img {
+	background: #eee;
+	height: 600px;
+}
